@@ -6,7 +6,7 @@
 #    By: mle-duc <mle-duc@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/02/24 16:55:24 by mle-duc           #+#    #+#              #
-#    Updated: 2024/01/07 17:46:00 by mle-duc          ###   ########.fr        #
+#    Updated: 2024/01/15 17:24:19 by mle-duc          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,7 +20,7 @@ SRCS =			main.cpp Fixed.cpp
 
 OBJS =			${SRCS:.cpp=.o}
 
-CPPFLAGS =		-Wall -Wextra -Werror -std=c++98 -pedantic
+CPPFLAGS =		-Wall -Wextra -Werror -std=c++98
 
 all: ${NAME}
 
